@@ -64,6 +64,7 @@
                   <li><a href="index.php?page=london">London</a></li>
                   <li><a href="index.php?page=paris">Paris</a></li>
                   <li><a href="index.php?page=tokyo">Tokyo</a></li>
+                   <li><a href="index.php?page=valorant">Valorant</a></li>
                 </ul>
               </li>
             </ul>
@@ -93,6 +94,9 @@
         break;
         case 'tokyo':
         include 'modules/tokyo.php';
+        break;
+        case 'valorant':
+        include 'modules/valorant.php';
         break;
       }
     }
